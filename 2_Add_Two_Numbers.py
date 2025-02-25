@@ -40,11 +40,6 @@ l1 = ListNode(2, ListNode(4, ListNode(3)))
 l2 = ListNode(5, ListNode(6, ListNode(4)))
 l4 = ListNode()
 
-print(f'type of l1 {type(l1)}')
-print_list(l1)
-print(f'type of l4 {type(l4)}')
-print_list(l4)
-
 
 solution = Solution()
 result = solution.addTwoNumbers(l1, l2)
